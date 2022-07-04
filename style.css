@@ -22,6 +22,12 @@ h3 {
     font-size: 30px;
 }
 
+.upper-area {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+
 .name-color {
     color: tomato;
 }
@@ -30,12 +36,17 @@ h3 {
     display: flex;
 }
 
-/* .upper-area img {
-    width: 100%;
-} */
+.middle-area {
+    display: flex;
+    margin-bottom: 60px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .half-width {
     width: 50%;
-    padding-left: 50px;
+    padding-left: 80px;
 }
 
 .half-width img {
@@ -44,4 +55,9 @@ h3 {
 
 .half-width p {
     margin: 40px 0;
+    text-align: justify;
+}
+
+.middle-area .half-width p {
+    padding: 0 30px 0 0;
 }
