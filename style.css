@@ -92,3 +92,7 @@ h3 {
 #full-stack {
     border-left: 5px solid crimson;
 }
+
+footer p {
+    text-align: center;
+}
